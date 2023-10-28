@@ -1,0 +1,131 @@
+.background6 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-white1);
+  width: 1575px;
+  height: 120px;
+}
+.united-icon2 {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.eng-us2 {
+  position: relative;
+  font-weight: 600;
+}
+.text15 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+}
+.languange2,
+.rectangle-icon {
+  position: absolute;
+  height: 60px;
+}
+.languange2 {
+  top: 30px;
+  left: 1002px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-base);
+  box-sizing: border-box;
+  gap: var(--gap-base);
+}
+.rectangle-icon {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-base);
+  width: 60px;
+  object-fit: cover;
+}
+.frame-child108 {
+  position: absolute;
+  height: 33.33%;
+  width: 10.96%;
+  top: 8.33%;
+  right: 15.07%;
+  bottom: 58.33%;
+  left: 73.97%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.admin2,
+.tharindu2 {
+  position: absolute;
+  left: 0;
+}
+.admin2 {
+  width: 100%;
+  top: 58.33%;
+  line-height: 20px;
+  display: inline-block;
+}
+.tharindu2 {
+  top: 0;
+  font-size: var(--semibold-16-size);
+  line-height: 24px;
+  font-weight: 500;
+  color: var(--greys-blue-grey-900);
+}
+.group-parent2 {
+  position: absolute;
+  top: 6px;
+  left: 80px;
+  width: 146px;
+  height: 48px;
+}
+.rectangle-parent24 {
+  position: absolute;
+  top: 0;
+  left: 72px;
+  width: 226px;
+  height: 60px;
+}
+.menu2,
+.notifications-icon2 {
+  position: absolute;
+  top: 7px;
+  left: 0;
+  width: 48px;
+  height: 48px;
+}
+.menu2 {
+  top: 30px;
+  left: 1233px;
+  width: 298px;
+  height: 60px;
+  font-size: var(--semibold-14-size);
+  color: var(--greys-blue-grey-700);
+}
+.user-managment {
+  margin: 0;
+  position: absolute;
+  top: 35px;
+  left: 40px;
+  font-size: var(--xl-semibold-size);
+  line-height: 140%;
+  font-weight: 600;
+  font-family: inherit;
+  color: var(--greys-blue-grey-900);
+}
+.top-bar2 {
+  position: absolute;
+  top: 0;
+  left: 345px;
+  width: 1575px;
+  height: 120px;
+  text-align: left;
+  font-size: var(--text-text-semi-bold-1-size);
+  color: var(--color-black);
+  font-family: var(--xl-semibold);
+}

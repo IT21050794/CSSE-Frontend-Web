@@ -1,0 +1,52 @@
+.frame-textfield,
+.group-textfield {
+  border: 0;
+  background-color: var(--greys-blue-grey-3001);
+  position: absolute;
+  top: 115.4px;
+  left: 0;
+}
+.frame-textfield {
+  top: 0;
+}
+.forgot-password {
+  position: absolute;
+  top: 124.9px;
+  left: 403.1px;
+}
+.frame-parent2 {
+  top: 273.5px;
+  width: 595px;
+  height: 156.5px;
+}
+.frame-parent2,
+.group-button,
+.sign-in {
+  position: absolute;
+  left: 0;
+}
+.group-button {
+  top: 502.7px;
+  cursor: pointer;
+}
+.sign-in {
+  margin: 0;
+  top: 0;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+  width: 159.6px;
+  height: 71.1px;
+}
+.component-parent {
+  position: absolute;
+  top: 346px;
+  left: 1230px;
+  width: 595px;
+  height: 596px;
+  text-align: left;
+  font-size: var(--xl-semibold-size);
+  color: var(--color-black1);
+  font-family: var(--xl-semibold);
+}

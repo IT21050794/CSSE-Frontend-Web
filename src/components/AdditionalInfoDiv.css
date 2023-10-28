@@ -1,0 +1,127 @@
+.b4,
+.bus-root {
+  position: absolute;
+  right: 26px;
+  letter-spacing: 0.3px;
+  display: inline-block;
+  width: 222px;
+}
+.bus-root {
+  top: 155px;
+  line-height: 22px;
+  font-weight: 600;
+  height: 17px;
+}
+.b4 {
+  top: 177px;
+  font-size: var(--bold-24-size);
+  color: var(--grayscale-black);
+  height: 23px;
+}
+.divider-line-vertical {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0.5px;
+  height: 425px;
+}
+.divider-line-horizontal18 {
+  position: absolute;
+  top: 218.5px;
+  right: 0;
+  width: 274px;
+  height: 1px;
+}
+.b5,
+.total-passengers {
+  position: absolute;
+  right: 26px;
+  letter-spacing: 0.3px;
+  display: inline-block;
+  width: 222px;
+}
+.total-passengers {
+  top: 237px;
+  line-height: 22px;
+  font-weight: 600;
+  height: 18px;
+}
+.b5 {
+  top: 259px;
+  font-size: var(--bold-24-size);
+  color: var(--grayscale-black);
+  height: 24px;
+}
+.divider-line-horizontal19 {
+  position: absolute;
+  top: 300.5px;
+  right: 0;
+  width: 274px;
+  height: 1px;
+}
+.average-passengers-per,
+.b6 {
+  position: absolute;
+  letter-spacing: 0.3px;
+  display: inline-block;
+}
+.average-passengers-per {
+  top: 320px;
+  right: 4px;
+  line-height: 22px;
+  font-weight: 600;
+  width: 270px;
+  height: 17px;
+}
+.b6 {
+  top: 342px;
+  right: 26px;
+  font-size: var(--bold-24-size);
+  color: var(--grayscale-black);
+  width: 222px;
+  height: 23px;
+}
+.divider-line-horizontal20 {
+  position: absolute;
+  top: 383.5px;
+  right: 0;
+  width: 274px;
+  height: 1px;
+}
+.b7,
+.total-revenue-from {
+  position: absolute;
+  right: 26px;
+  letter-spacing: 0.3px;
+  display: inline-block;
+  width: 222px;
+}
+.total-revenue-from {
+  top: 402px;
+  line-height: 22px;
+  font-weight: 600;
+  height: 18px;
+}
+.b7 {
+  top: 424px;
+  font-size: var(--bold-24-size);
+  color: var(--grayscale-black);
+  height: 24px;
+}
+.additional-info,
+.divider-line-horizontal21 {
+  position: absolute;
+  top: 465.5px;
+  right: 0;
+  width: 274px;
+  height: 1px;
+}
+.additional-info {
+  top: 0;
+  height: 608px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--semibold-16-size);
+  color: var(--grayscale-gray);
+  font-family: var(--bold-24);
+}

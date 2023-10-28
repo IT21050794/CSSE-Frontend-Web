@@ -1,0 +1,255 @@
+.background-copy-2,
+.rectangle {
+  position: absolute;
+  width: 100%;
+  right: 0;
+  left: 0;
+}
+.background-copy-2 {
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white1);
+  box-shadow: 0 4px 20px rgba(238, 238, 238, 0.5);
+  border: 1px solid var(--color-whitesmoke-100);
+  box-sizing: border-box;
+}
+.rectangle {
+  height: 4.76%;
+  top: 47.62%;
+  bottom: 47.62%;
+  background-color: var(--color-aliceblue-100);
+}
+.ui-elements6-line-1px-copy-4 {
+  position: absolute;
+  height: 5.98%;
+  width: 87.62%;
+  top: 73.5%;
+  right: 6.19%;
+  bottom: 20.51%;
+  left: 6.19%;
+}
+.div50,
+.this-month {
+  position: absolute;
+  left: 23.87%;
+  display: inline-block;
+}
+.div50 {
+  width: 35.42%;
+  top: calc(50% + 4.6px);
+  line-height: 20px;
+  font-weight: 500;
+}
+.this-month {
+  width: 76.13%;
+  top: calc(50% - 25px);
+  font-size: var(--semibold-16-size);
+  line-height: 30px;
+  color: var(--color-lightslategray-100);
+}
+.group-18-copy {
+  position: absolute;
+  height: 18.2%;
+  width: 18.77%;
+  top: 20.2%;
+  right: 82.19%;
+  bottom: 61.6%;
+  left: -0.97%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.parent1 {
+  position: absolute;
+  top: 0;
+  left: 183px;
+  width: 155px;
+  height: 50px;
+}
+.div51,
+.last-month {
+  position: absolute;
+  left: 23.68%;
+  display: inline-block;
+}
+.div51 {
+  width: 34.24%;
+  top: calc(50% + 5px);
+  line-height: 20px;
+  font-weight: 500;
+}
+.last-month {
+  width: 76.32%;
+  top: calc(50% - 25px);
+  font-size: var(--semibold-16-size);
+  line-height: 30px;
+  color: var(--color-lightslategray-100);
+}
+.frame-child93 {
+  position: absolute;
+  height: 18%;
+  width: 18.75%;
+  top: 22%;
+  right: 82.29%;
+  bottom: 60%;
+  left: -1.04%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.parent2,
+.rectangle1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 144px;
+  height: 50px;
+}
+.rectangle1 {
+  height: 48%;
+  width: 0.38%;
+  top: 11.2%;
+  right: 49.62%;
+  bottom: 40.8%;
+  left: 50%;
+  background-color: var(--color-silver-100);
+}
+.frame-parent3 {
+  position: absolute;
+  top: 285px;
+  left: 33px;
+  width: 338px;
+  height: 50px;
+}
+.customer-satisfactio {
+  position: absolute;
+  top: calc(50% - 150.5px);
+  left: 5.24%;
+  font-size: var(--xl-semibold2-size);
+  line-height: 32px;
+  font-weight: 600;
+  color: var(--primary-dark-shade);
+}
+.path-6-icon,
+.path-6-icon1 {
+  position: absolute;
+  height: 48.98%;
+  width: 98.89%;
+  top: 0.48%;
+  right: 0.55%;
+  bottom: 50.54%;
+  left: 0.55%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.path-6-icon1 {
+  height: 98.92%;
+  width: 98.42%;
+  top: 1.08%;
+  right: 0.8%;
+  bottom: 0;
+  left: 0.78%;
+}
+.oval-copy-14,
+.oval-copy-15,
+.oval-copy-16,
+.oval-copy-17,
+.oval-copy-18,
+.oval-copy-19,
+.oval-copy-7 {
+  position: absolute;
+  height: 4.79%;
+  width: 2.01%;
+  top: 0;
+  right: 0;
+  bottom: 95.21%;
+  left: 97.99%;
+  border-radius: 50%;
+  background-color: var(--color-mediumspringgreen-100);
+}
+.oval-copy-14,
+.oval-copy-15,
+.oval-copy-16,
+.oval-copy-17,
+.oval-copy-18,
+.oval-copy-19 {
+  top: 46.05%;
+  right: 13.49%;
+  bottom: 49.16%;
+  left: 84.5%;
+}
+.oval-copy-15,
+.oval-copy-16,
+.oval-copy-17,
+.oval-copy-18,
+.oval-copy-19 {
+  top: 15.09%;
+  right: 34.62%;
+  bottom: 80.12%;
+  left: 63.37%;
+}
+.oval-copy-16,
+.oval-copy-17,
+.oval-copy-18,
+.oval-copy-19 {
+  top: 34.79%;
+  right: 51.73%;
+  bottom: 60.42%;
+  left: 46.26%;
+}
+.oval-copy-17,
+.oval-copy-18,
+.oval-copy-19 {
+  top: 17.9%;
+  right: 65.63%;
+  bottom: 77.31%;
+  left: 32.36%;
+}
+.oval-copy-18,
+.oval-copy-19 {
+  top: 26.35%;
+  right: 79.55%;
+  bottom: 68.86%;
+  left: 18.44%;
+}
+.oval-copy-19 {
+  top: 10.42%;
+  right: 97.99%;
+  bottom: 84.79%;
+  left: 0;
+}
+.path-6-parent {
+  position: absolute;
+  height: 47.58%;
+  width: 94.76%;
+  top: 21.65%;
+  right: 2.62%;
+  bottom: 30.77%;
+  left: 2.62%;
+}
+.customer-satisfaction-child {
+  position: absolute;
+  height: 26.58%;
+  width: 94.29%;
+  top: 42.22%;
+  right: 3.1%;
+  bottom: 31.2%;
+  left: 2.62%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.customer-satisfaction {
+  position: absolute;
+  top: 547px;
+  left: 1051px;
+  width: 420px;
+  height: 351px;
+  text-align: left;
+  font-size: var(--semibold-14-size);
+  color: var(--color-darkslategray-300);
+  font-family: var(--xl-semibold);
+}

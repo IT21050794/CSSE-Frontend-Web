@@ -1,0 +1,75 @@
+.sign-in-to,
+.your-gateway-to {
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  width: 493px;
+  height: 101px;
+}
+.your-gateway-to {
+  top: 108px;
+  font-size: 35px;
+  font-weight: 500;
+  width: 582px;
+  height: 169px;
+}
+.saly-14-icon,
+.sign-in-to-mibus-parent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 582px;
+  height: 277px;
+}
+.saly-14-icon {
+  top: 205.9px;
+  left: 464.7px;
+  width: 460.3px;
+  height: 751.1px;
+  object-fit: cover;
+}
+.frame-parent {
+  position: absolute;
+  top: 346px;
+  left: 277px;
+  width: 925px;
+  height: 957px;
+}
+.mibus {
+  position: absolute;
+  top: 7px;
+  left: 77px;
+  line-height: 150%;
+  font-weight: 600;
+}
+.dummy-logo-icon,
+.side-menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 56px;
+  height: 56px;
+}
+.side-menu {
+  top: 39px;
+  left: 42px;
+  width: 168px;
+  font-size: var(--xl-semibold1-size);
+  color: var(--greys-blue-grey-900);
+}
+.login {
+  position: relative;
+  background-color: var(--color-white1);
+  width: 100%;
+  height: 1311px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 50px;
+  color: var(--color-black1);
+  font-family: var(--xl-semibold);
+}

@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --bold-24: Mulish;
+  --xl-semibold: Poppins;
+  --font-open-sans: "Open Sans";
+  --font-epilogue: Epilogue;
+  --font-cabin: Cabin;
+
+  /* font sizes */
+  --bold-24-size: 24px;
+  --semibold-16-size: 16px;
+  --regular-10-size: 10px;
+  --semibold-12-size: 12px;
+  --bold-19-size: 19px;
+  --font-size-13xl: 32px;
+  --semibold-14-size: 14px;
+  --xl-semibold-size: 36px;
+  --text-text-semi-bold-1-size: 18px;
+  --xl-semibold1-size: 30px;
+  --xl-semibold2-size: 20px;
+  --font-size-smi: 13px;
+  --bold-11-05-px-caps-size: 11px;
+
+  /* Colors */
+  --color-gray-100: #fafbfc;
+  --grayscale-black: #252733;
+  --greys-blue-grey-300: #f9fafb;
+  --color-whitesmoke-100: #f8f9fa;
+  --color-whitesmoke-200: #f5f5f5;
+  --grayscale-gray: #9fa2b4;
+  --color-brown: #b22234;
+  --color-white1: #fff;
+  --color-blueviolet-100: #884dff;
+  --main-blue: #3751ff;
+  --colors-purple-100: #f3e8ff;
+  --main-lightblue: #dde2ff;
+  --color-lavender-100: #cde7ff;
+  --color-lavender-200: #dfe0eb;
+  --brand-shades-moviebox-liberty-10: #d1d8f7;
+  --light-theme-dark-red: #cc4848;
+  --color-dimgray-100: #6a6a6a;
+  --grayscale-gray-dark: #4b506d;
+  --brand-shades-moviebox-liberty-75: #4755a8;
+  --greys-blue-grey-900: #151d48;
+  --greys-blue-grey-700: #737791;
+  --greys-blue-grey-800: #444a6d;
+  --color-darkslategray-100: #425166;
+  --color-darkslategray-200: #464e5f;
+  --color-black: #374557;
+  --color-darkslategray-300: #222b45;
+  --color-darkslategray-400: rgba(70, 78, 95, 0.04);
+  --color-lightslategray-100: #96a5b8;
+  --color-lightslategray-200: #9699ad;
+  --primary-200: #7b91b0;
+  --primary-900: #5d5fef;
+  --color-black1: #000;
+  --color-papayawhip: #fff4de;
+  --supporting-color-green-shade: #e2fff3;
+  --colors-green-100: #dcfce7;
+  --color-mediumaquamarine: #4ab58e;
+  --color-gold: #ffcf00;
+  --primary-dark-shade: #05004e;
+  --color-darkorange-100: #ff8f0c;
+  --color-darkorange-200: #ff8900;
+  --color-navajowhite: #ffd5a4;
+  --supporting-color-yellow-shade: #fef6e7;
+  --colors-light-blue-50: #f0f9ff;
+  --color-aliceblue-100: #edf2f6;
+  --color-plum: #c5a8ff;
+  --supporting-color-violet-shade: #fbf1ff;
+  --color-mediumspringgreen-100: #07e098;
+  --color-mediumspringgreen-200: #00e58f;
+  --color-mediumspringgreen-300: #00e096;
+  --color-aquamarine: #8cfac7;
+  --colors-green-50: #f0fdf4;
+  --color-dodgerblue: #0095ff;
+  --grayscale-gray-light: #c5c7cd;
+  --color-silver-100: #bdc9d3;
+  --supporting-color-violet: #a700ff;
+  --color-crimson-100: #f64e60;
+  --colors-red-500: #ef4444;
+  --supporting-color-green: #3cd856;
+  --iris-80: #7879f1;
+  --primary-800: #4079ed;
+  --color-mistyrose: #ffe2e5;
+  --color-gainsboro: #e0e0e0;
+  --brand-shades-moviebox-liberty-50: #7281d3;
+
+  /* Gaps */
+  --gap-mini: 15px;
+  --gap-base: 16px;
+  --gap-sm: 14px;
+  --gap-5xl: 24px;
+  --gap-0: 0px;
+  --gap-5xs: 8px;
+  --gap-9xs: 4px;
+
+  /* Paddings */
+  --padding-base: 16px;
+  --padding-5xl: 24px;
+  --padding-xs: 12px;
+  --padding-21xl: 40px;
+  --padding-13xl: 32px;
+  --padding-109xl: 128px;
+  --padding-4xl-3: 23.3px;
+  --padding-5xs: 8px;
+
+  /* Border radiuses */
+  --br-5xs: 8px;
+  --br-base: 16px;
+  --br-7xs: 6px;
+  --br-9xs: 4px;
+  --br-xl: 20px;
+  --br-11xs: 2px;
+  --br-xs: 12px;
+  --br-81xl: 100px;
+  --br-22xl: 41px;
+
+  /* Effects */
+  --shadow: 0px 20px 50px rgba(55, 69, 87, 0.1);
+}

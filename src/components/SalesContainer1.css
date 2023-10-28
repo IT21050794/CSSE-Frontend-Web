@@ -1,0 +1,137 @@
+.bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-base);
+  background-color: var(--colors-purple-100);
+  width: 180px;
+  height: 184px;
+}
+.from-yesterday {
+  position: absolute;
+  top: 148px;
+  left: 20px;
+  line-height: 16px;
+  font-weight: 500;
+}
+.new-users {
+  top: 116px;
+  font-size: var(--semibold-16-size);
+  line-height: 24px;
+  font-weight: 500;
+  color: var(--color-darkslategray-100);
+}
+.div39,
+.icon,
+.new-users {
+  position: absolute;
+  left: 20px;
+}
+.div39 {
+  top: 76px;
+  font-size: var(--bold-24-size);
+  line-height: 32px;
+  font-weight: 600;
+  color: var(--greys-blue-grey-900);
+}
+.icon {
+  top: 20px;
+  width: 40px;
+  height: 40px;
+}
+.div38 {
+  top: 132px;
+  left: 665px;
+}
+.bg1,
+.bg2,
+.div38,
+.div40 {
+  position: absolute;
+  width: 180px;
+  height: 184px;
+}
+.bg1 {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-base);
+  background-color: var(--colors-green-100);
+}
+.bg2,
+.div40 {
+  top: 132px;
+  left: 454px;
+}
+.bg2 {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-base);
+  background-color: var(--color-papayawhip);
+}
+.div42 {
+  top: 132px;
+  left: 243px;
+}
+.bg3,
+.div42,
+.div44 {
+  position: absolute;
+  width: 180px;
+  height: 184px;
+}
+.bg3 {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-base);
+  background-color: var(--color-mistyrose);
+}
+.div44 {
+  top: 132px;
+  left: 32px;
+}
+.exports,
+.todays-usage {
+  position: absolute;
+  top: 32px;
+  left: 745px;
+}
+.todays-usage {
+  top: 0;
+  left: 0;
+  line-height: 32px;
+  font-weight: 600;
+}
+.usage-summery {
+  position: absolute;
+  top: 36px;
+  left: 2px;
+  font-size: var(--semibold-16-size);
+  line-height: 30px;
+  color: var(--greys-blue-grey-700);
+}
+.today-sales,
+.todays-usage-parent {
+  position: absolute;
+  top: 23px;
+  left: 31px;
+  width: 353px;
+  height: 66px;
+  font-size: var(--xl-semibold2-size);
+  color: var(--primary-dark-shade);
+}
+.today-sales {
+  top: 160px;
+  left: 378px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white1);
+  box-shadow: 0 4px 20px rgba(238, 238, 238, 0.5);
+  border: 1px solid var(--color-whitesmoke-100);
+  box-sizing: border-box;
+  width: 877px;
+  height: 348px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--semibold-12-size);
+  color: var(--primary-800);
+  font-family: var(--xl-semibold);
+}
