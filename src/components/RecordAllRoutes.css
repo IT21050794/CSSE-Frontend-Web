@@ -1,0 +1,38 @@
+/* RecordAllRoutes.css */
+.record-card {
+  max-width: 320px;
+  background-color: white;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+.record-card p {
+  margin-bottom: 10px;
+  font-weight: normal;
+  color: #666;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.button-container button {
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button-container .edit-button {
+  background: linear-gradient(to right, #45a049, #58c064, #45a049);
+}
+
+.button-container .delete-button {
+  background: linear-gradient(to right, #e53935, #f44336, #e53935);
+}
