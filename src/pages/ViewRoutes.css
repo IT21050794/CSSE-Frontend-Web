@@ -1,0 +1,18 @@
+
+.emplist{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    grid-gap: 20px;
+    
+}
+
+.empcard{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+    height: 300px;
+}

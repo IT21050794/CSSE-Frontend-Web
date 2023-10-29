@@ -10,6 +10,8 @@ import UserManagement from "./pages/UserManagement";
 import RouteSummery from "./pages/RouteSummery";
 import BusRouteRecords from "./pages/BusRouteRecords";
 import Dashboard from "./pages/Dashboard";
+import ViewRoutes from "./pages/ViewRoutes";
+import AddBusRoute from "./pages/AddBusRoute";
 
 function App() {
   const action = useNavigationType();
@@ -47,6 +49,14 @@ function App() {
         title = "";
         metaDescription = "";
         break;
+      case "/view-routes":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/add-routes":
+        title = "";
+        metaDescription = "";
+        break;
     }
 
     if (title) {
@@ -70,6 +80,8 @@ function App() {
       <Route path="/route-summery" element={<RouteSummery />} />
       <Route path="/bus-route-records" element={<BusRouteRecords />} />
       <Route path="/dashboard" element={<Dashboard />} />
+      <Route path="/view-routes" element={<ViewRoutes />} />
+      <Route path="/add-routes" element={<AddBusRoute />} />
     </Routes>
   );
 }

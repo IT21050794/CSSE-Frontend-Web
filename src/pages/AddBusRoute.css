@@ -1,0 +1,91 @@
+section {
+  margin: auto;
+  margin-top: 50px;
+  background-color: rgba(143, 166, 228, 0.596);
+  border-radius: 10px;
+}
+/* YourComponent.css */
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.sample-image {
+    width: 60%; /* Adjust the width to your preference */
+    max-width: "50%";
+    align-items: left;
+}
+
+.form-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.form {
+  flex: 1;
+  margin-left: 20px;
+}
+
+.form-title {
+  font-size: 2.5rem;
+  font-weight: normal;
+  margin: 0;
+  color: #007bff;
+  margin-bottom: 1rem;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-label {
+  display: block;
+  font-size: 1rem;
+  color: #333;
+}
+
+.form-input {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out;
+  color: #555;
+  outline: none;
+}
+
+.invalid-email {
+  border-color: #ff0000;
+}
+
+.error-message {
+  font-size: 0.875rem;
+  color: #ff0000;
+  padding-top: 0.25rem;
+}
+
+.form-input:focus {
+  border-color: #007bff;
+}
+
+.submit-button {
+  background-color: #007bff;
+  color: #fff;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: background-color 0.15s ease-in-out;
+  outline: none;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}

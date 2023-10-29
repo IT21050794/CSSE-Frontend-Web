@@ -4,15 +4,16 @@ import { getStorage } from "firebase/storage";
 import { getAuth } from "firebase/auth";
 
 import { config } from "../constants/config";
+//require('dotenv').config();
 
 const firebaseConfig = {
-  apiKey: config.FIREBASE_API_KEY,
-  authDomain: config.FIREBASE_AUTH_DOMAIN,
-  databaseURL: config.FIREBASE_DATABASE_URL,
-  projectId: config.FIREBASE_PROJECT_ID,
-  storageBucket: config.FIREBASE_STORAGE_BUCKET,
-  messagingSenderId: config.FIREBASE_MESSAGING_SENDER_ID,
-  appId: config.FIREBASE_APP_ID,
+  apiKey: 'AIzaSyDZK16D9x99pZoDig-8xOxcughTbyOUWIU',
+  authDomain: 'uee-sliit.firebaseapp.com',
+  databaseURL: 'https://uee-sliit-default-rtdb.asia-southeast1.firebasedatabase.app/',
+  projectId: 'uee-sliit',
+  storageBucket: 'uee-sliit.appspot.com',
+  messagingSenderId: '593619385820',
+  appId: '1:593619385820:web:309d4880a73eff9b10a319',
 };
 
 if (!firebase.apps.length) {
