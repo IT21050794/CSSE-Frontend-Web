@@ -12,13 +12,24 @@ import "./SignInForm1.css";
 const SignInForm1 = () => {
   const [showPassword, setShowPassword] = useState(false);
   const navigate = useNavigate();
+  const [username, setUsername] = useState("");
+  const [password, setPassword] = useState("");
+  //const [loginError, setLoginError] = useState(false);
+
   const handleShowPasswordClick = () => {
     setShowPassword(!showPassword);
   };
 
   const onGroupButtonClick = useCallback(() => {
-    navigate("/dashboard");
-  }, [navigate]);
+
+    if (username === "admin" && password === "admin") {
+      window.confirm("Login Successfully.");
+      navigate("/dashboard");
+    } else {
+      //setLoginError(true);
+      window.confirm("Error: Login Failed. Please try again.");
+    }
+  }, [navigate, username, password]);
 
   return (
     <div className="component-parent">
@@ -29,6 +40,8 @@ const SignInForm1 = () => {
         required={true}
         sx={{ width: 595 }}
         variant="filled"
+        value={username}
+        onChange={(e) => setUsername(e.target.value)}
       />
       <div className="frame-parent2">
         <TextField
@@ -36,6 +49,7 @@ const SignInForm1 = () => {
           color="primary"
           label="Password"
           required={true}
+          type={showPassword ? "text" : "password"}
           sx={{ width: 595 }}
           variant="filled"
           InputProps={{
@@ -50,6 +64,8 @@ const SignInForm1 = () => {
               </InputAdornment>
             ),
           }}
+          value={password}
+          onChange={(e) => setPassword(e.target.value)}
         />
         <Button
           className="forgot-password"
@@ -70,6 +86,8 @@ const SignInForm1 = () => {
         Login
       </Button>
       <h3 className="sign-in">Sign in</h3>
+
+      {/* {loginError && <p className="error-message">Error: Login Failed</p>} */}
     </div>
   );
 };
