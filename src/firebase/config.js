@@ -7,13 +7,13 @@ import { config } from "../constants/config";
 //require('dotenv').config();
 
 const firebaseConfig = {
-  apiKey: 'AIzaSyDZK16D9x99pZoDig-8xOxcughTbyOUWIU',
-  authDomain: 'uee-sliit.firebaseapp.com',
-  databaseURL: 'https://uee-sliit-default-rtdb.asia-southeast1.firebasedatabase.app/',
-  projectId: 'uee-sliit',
-  storageBucket: 'uee-sliit.appspot.com',
-  messagingSenderId: '593619385820',
-  appId: '1:593619385820:web:309d4880a73eff9b10a319',
+  apiKey: FIREBASE_API_KEY,
+  authDomain: FIREBASE_AUTH_DOMAIN,
+  databaseURL: FIREBASE_DATABASE_URL,
+  projectId: PUBLIC_FIREBASE_PROJECT_ID,
+  storageBucket: FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: FIREBASE_MESSAGING_SENDER_ID,
+  appId: FIREBASE_APP_ID,
 };
 
 if (!firebase.apps.length) {
