@@ -9,48 +9,45 @@ const ContainerFrame = () => {
     navigate("/dashboard");
   }, [navigate]);
 
+  const onFrameNavigationClick = useCallback(() => {
+    navigate("/user-management");
+  }, [navigate]);
+
+  const onFrameNavigation1Click = useCallback(() => {
+    navigate("/");
+  }, [navigate]);
+
+  const onNavigationClick2 = useCallback(() => {
+    navigate("/bus-route-records");
+  }, [navigate]);
+
   return (
-    <section className="frame4">
-      <div className="side-menu2">
-        <div className="frame-parent1">
-          <div className="group-parent1">
-            <img className="group-icon3" alt="" src="/group.svg" />
-            <div className="text6">User Management</div>
-          </div>
-          <div className="sign-out-group">
-            <div className="sign-out1">Sign Out</div>
-            <img className="sign-out-icon1" alt="" src="/sign-out-icon.svg" />
-          </div>
-          <div className="mdicog-outline-parent">
-            <img
-              className="mdicog-outline-icon"
-              alt=""
-              src="/mdicogoutline.svg"
-            />
-            <div className="text7">Settings</div>
-          </div>
-        </div>
-        <div className="frame5">
-          <div className="mibus2">MiBus</div>
-          <img className="dummy-logo-icon2" alt="" src="/dummy-logo.svg" />
-        </div>
-      </div>
-      <div className="frame6">
-        <div className="div6">
-          <img
-            className="interface-chart-line1"
-            alt=""
-            src="/interface--chart-line.svg"
-          />
-          <div className="text8">Bus Route records</div>
-        </div>
-      </div>
-      <ul className="frame7">
-        <nav className="nav3" onClick={onNavigationClick}>
-          <img className="graph-1-icon1" alt="" src="/graph-1.svg" />
-          <div className="text8">Dashboard</div>
+    <section className="side-menu1">
+      <div className="background2" />
+      <div className="frame-div">
+        <nav className="group-group" onClick={onFrameNavigationClick}>
+          <img className="group-icon2" alt="" src="/group3.svg" />
+          <div className="text3">User Management</div>
         </nav>
-      </ul>
+        <nav className="sign-out-parent" onClick={onFrameNavigation1Click}>
+          <div className="sign-out">Sign Out</div>
+          <img className="sign-out-icon" alt="" src="/sign-out-icon1@2x.png" />
+        </nav>
+      </div>
+      <div className="mibus1">MiBus</div>
+      <img className="dummy-logo-icon1" alt="" src="/dummy-logo.svg" />
+      <nav className="nav1" onClick={onNavigationClick}>
+        <img className="graph-1-icon" alt="" src="/graph-1.svg" />
+        <div className="text4">Dashboard</div>
+      </nav>
+      <nav className="nav2" onClick={onNavigationClick2}>
+        <img
+          className="interface-chart-line"
+          alt=""
+          src="/interface--chart-line.svg"
+        />
+        <div className="text4">Bus Route records</div>
+      </nav>
     </section>
   );
 };

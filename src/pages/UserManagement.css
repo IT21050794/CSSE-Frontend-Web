@@ -689,3 +689,29 @@
   height: 1311px;
   overflow: hidden;
 }
+.table-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px; /* Add margin as needed */
+}
+.th5 {
+  text-align: center;
+  background-color: #ffffff; 
+  color: #fff; 
+  padding: 10px; 
+  font-weight: bold;
+  border: 1px solid #222; 
+  width: 25%;
+}
+.th11 {
+  text-align: center; 
+  background-color: #ffffff; 
+  color: #fff; 
+  padding: 10px; 
+  font-weight: bold; 
+  border: 1px solid #222; 
+}
+.bus-route {
+  display: block; 
+  margin: 0 auto; 
+}
